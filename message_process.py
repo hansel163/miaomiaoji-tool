@@ -42,9 +42,11 @@ class BtManager:
     def scandevices(self):
         logging.warning("Searching for devices...\n"
                         "It may take time, you'd better specify mac address to avoid a scan.")
-        valid_names = ['MiaoMiaoJi', 'Paperang']
+        # Hansel 20200629, added Paperang_P2
+        valid_names = ['MiaoMiaoJi', 'Paperang', 'Paperang_P2']
         nearby_devices = discover_devices(lookup_names=True)
-        valid_devices = filter(lambda d: len(d) == 2 and d[1] in valid_names, nearby_devices)
+        # Hansel 20200629, filter() does not return list in Python 3
+        valid_devices = list(filter(lambda d: len(d) == 2 and d[1] in valid_names, nearby_devices))
         if len(valid_devices) == 0:
             logging.error("Cannot find device with name %s." % " or ".join(valid_names))
             return False
@@ -52,7 +54,8 @@ class BtManager:
             logging.warning("Found multiple valid machines, the first one will be used.\n")
             logging.warning("\n".join(valid_devices))
         else:
-            logging.warning(
+            # Hansel 20200629, use INFO level
+            logging.info(
                 "Found a valid machine with MAC %s and name %s" % (valid_devices[0][0], valid_devices[0][1])
             )
         self.address = valid_devices[0][0]
@@ -61,10 +64,15 @@ class BtManager:
     def scanservices(self):
         logging.info("Searching for services...")
         service_matches = find_service(uuid=self.uuid, address=self.address)
-        valid_service = filter(
-            lambda s: 'protocol' in s and 'name' in s and s['protocol'] == 'RFCOMM' and s['name'] == 'SerialPort',
+        # Hansel 20200629, filter() does not return list in Python 3
+        print(service_matches[0]['name'])
+        valid_service = list(filter(
+            # Hansel, 20200629, changed for Paperang P2
+            # lambda s: 'protocol' in s and 'name' in s and s['protocol'] == 'RFCOMM' and s['name'] == 'SerialPort',
+            lambda s: 'protocol' in s and 'name' in s and s[
+                'protocol'] == 'RFCOMM' and s['name'] == b'Port\x00',
             service_matches
-        )
+        ))
         if len(valid_service) == 0:
             logging.error("Cannot find valid services on device with MAC %s." % self.address)
             return False
@@ -84,7 +92,9 @@ class BtManager:
         result = struct.pack('<BBB', 2, control_command, i)
         result += struct.pack('<H', len(bytes))
         result += bytes
-        result += struct.pack('<i', self.crc32(bytes))
+        # Hansel, 20200629, zlib.crc32() return unsigned integer in Python 3 
+        # result += struct.pack('<i', self.crc32(bytes))
+        result += struct.pack('<I', self.crc32(bytes))
         result += struct.pack('<B', 3)
         return result
 
@@ -106,7 +116,9 @@ class BtManager:
         # Here we assume that there is only one received packet.
         raw_msg = self.sock.recv(self.max_recv_msg_length)
         parsed = self.resultParser(raw_msg)
-        logging.info("Recv: " + raw_msg.encode('hex'))
+        # Hansel, 20200629, use hex() for byte to string in Python 3
+        # logging.info("Recv: " + raw_msg.encode('hex'))
+        logging.info("Recv: " + raw_msg.hex())
         logging.info("Received %d packets: " % len(parsed) + "".join([str(p) for p in parsed]))
         return raw_msg, parsed
 
@@ -196,7 +208,8 @@ if __name__ == "__main__":
     # mmj = BtManager("69:68:63:69:61:68")
 
     # Start a scan to find valid devices
-    mmj = BtManager()
+    # mmj = BtManager()
+    mmj = BtManager("fc:58:fa:1e:26:63")
 
     if mmj.connected:
         mmj.sendDensityToBt(95)

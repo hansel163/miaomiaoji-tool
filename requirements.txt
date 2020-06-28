@@ -1,0 +1,5 @@
+pybluez-win10
+twisted
+pyopenssl
+opencv
+numpy

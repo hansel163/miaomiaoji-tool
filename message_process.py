@@ -65,7 +65,6 @@ class BtManager:
         logging.info("Searching for services...")
         service_matches = find_service(uuid=self.uuid, address=self.address)
         # Hansel 20200629, filter() does not return list in Python 3
-        print(service_matches[0]['name'])
         valid_service = list(filter(
             # Hansel, 20200629, changed for Paperang P2
             # lambda s: 'protocol' in s and 'name' in s and s['protocol'] == 'RFCOMM' and s['name'] == 'SerialPort',
@@ -125,12 +124,14 @@ class BtManager:
     def resultParser(self, data):
         base = 0
         res = []
-        while base < len(data) and data[base] == '\x02':
+        while base < len(data) and data[base] == b'\x02':
             class Info(object):
                 def __str__(self):
                     return "\nControl command: %s(%s)\nPayload length: %d\nPayload(hex): %s" % (
                         self.command, BtCommandByte.findCommand(self.command)
-                        , self.payload_length, self.payload.encode('hex')
+                        # Hansel, 20200629, use hex() for byte to string in Python 3
+                        # , self.payload_length, self.payload.encode('hex')
+                        , self.payload_length, self.payload.hex()
                     )
             info = Info()
             _, info.command, _, info.payload_length = struct.unpack('<BBBH', data[base:base+5])
@@ -161,7 +162,10 @@ class BtManager:
 
     def sendImageToBt(self, binary_img):
         self.sendPaperTypeToBt()
-        msg = struct.pack("<%dc" % len(binary_img), *binary_img)
+        # Hansel, 20200629, *bytes changed to int in Python 3. 
+        # No need to use struct since it is already char
+        # msg = struct.pack("<%dc" % len(binary_img), *binary_img)
+        msg = binary_img
         self.sendToBt(msg, BtCommandByte.PRT_PRINT_DATA, need_reply=False)
         self.sendFeedLineToBt(self.padding_line)
 
@@ -224,7 +228,7 @@ if __name__ == "__main__":
         # mmj.sendImageToBt(img)
 
         # Print a pure black image with 300 lines
-        # img = "\xff" * 48 * 300
+        # img = b"\xff" * 48 * 300
         # mmj.sendImageToBt(img)
 
         # Print 2 line of text(need opencv)

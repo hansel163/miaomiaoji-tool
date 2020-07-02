@@ -6,8 +6,8 @@ __author__ = "ihciah"
 class BtCommandByte(object):
     @staticmethod
     def findCommand(c):
-        keys = filter(lambda x: not x.startswith("__") and BtCommandByte.__getattribute__(BtCommandByte, x) == c,
-                      dir(BtCommandByte))
+        keys = list(filter(lambda x: not x.startswith("__") and BtCommandByte.__getattribute__(BtCommandByte, x) == c,
+                      dir(BtCommandByte)))
         return keys[0] if keys else "NO_MATCH_COMMAND"
 
     __fmversion__ = "1.2.7"

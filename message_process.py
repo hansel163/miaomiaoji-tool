@@ -88,6 +88,7 @@ class BtManager:
         return zlib.crc32(content, self.crcKey if self.crckeyset else self.standardKey)
 
     def packPerBytes(self, bytes, control_command, i):
+        logging.info("packing cmd='{}', index={}".format(control_command, i))
         result = struct.pack('<BBB', 2, control_command, i)
         result += struct.pack('<H', len(bytes))
         result += bytes
@@ -124,7 +125,7 @@ class BtManager:
     def resultParser(self, data):
         base = 0
         res = []
-        while base < len(data) and data[base] == b'\x02':
+        while base < len(data) and data[base] == 2:
             class Info(object):
                 def __str__(self):
                     return "\nControl command: %s(%s)\nPayload length: %d\nPayload(hex): %s" % (
@@ -162,7 +163,7 @@ class BtManager:
 
     def sendImageToBt(self, binary_img):
         self.sendPaperTypeToBt()
-        # Hansel, 20200629, *bytes changed to int in Python 3. 
+        # Hansel, 20200629, *bytes changed to int instead of char in Python 3. 
         # No need to use struct since it is already char
         # msg = struct.pack("<%dc" % len(binary_img), *binary_img)
         msg = binary_img

@@ -1,0 +1,113 @@
+2020-07-04 01:38:28,936 - c:\Data\Develop\Paperang\miaomiaoji-tool\paperang_bridge.py[line:61] - INFO: Host connected.
+2020-07-04 01:38:28,938 - c:\Data\Develop\Paperang\miaomiaoji-tool\paperang_bridge.py[line:69] - INFO: Searching for services...
+2020-07-04 01:38:30,770 - c:\Data\Develop\Paperang\miaomiaoji-tool\paperang_bridge.py[line:79] - INFO: Found a valid service on target device.
+2020-07-04 01:38:30,771 - c:\Data\Develop\Paperang\miaomiaoji-tool\paperang_bridge.py[line:88] - INFO: Service found. Connecting to "b'Port\x00'" on fc:58:fa:1e:26:63...
+2020-07-04 01:38:31,017 - c:\Data\Develop\Paperang\miaomiaoji-tool\paperang_bridge.py[line:92] - INFO: Device connected.
+2020-07-04 01:38:31,022 - c:\Data\Develop\Paperang\miaomiaoji-tool\paperang_bridge.py[line:109] - INFO: Start to redirect host data to device ...
+2020-07-04 01:38:31,044 - c:\Data\Develop\Paperang\miaomiaoji-tool\paperang_bridge.py[line:112] - INFO: Start to redirect device data to host ...
+2020-07-04 01:40:58,689 - connect_host[line:61] - INFO: Host connected.
+2020-07-04 01:40:58,691 - scanservices[line:69] - INFO: Searching for services...
+2020-07-04 01:41:00,197 - scanservices[line:79] - INFO: Found a valid service on target device.
+2020-07-04 01:41:00,198 - connect_device[line:88] - INFO: Service found. Connecting to "b'Port\x00'" on fc:58:fa:1e:26:63...
+2020-07-04 01:41:00,474 - connect_device[line:92] - INFO: Device connected.
+2020-07-04 01:41:00,480 - redirect_Serial2Bt_thread[line:109] - INFO: Start to redirect host data to device ...
+2020-07-04 01:41:00,506 - redirect_Bt2Serial[line:112] - INFO: Start to redirect device data to host ...
+2020-07-04 01:44:06,943 - connect_host[line:61] - INFO: Host connected.
+2020-07-04 01:44:06,944 - scanservices[line:69] - INFO: Searching for services...
+2020-07-04 01:44:08,509 - scanservices[line:79] - INFO: Found a valid service on target device.
+2020-07-04 01:44:08,511 - connect_device[line:88] - INFO: Service found. Connecting to "b'Port\x00'" on fc:58:fa:1e:26:63...
+2020-07-04 01:44:08,731 - connect_device[line:92] - INFO: Device connected.
+2020-07-04 01:44:08,735 - redirect_Serial2Bt_thread[line:109] - INFO: Start to redirect host data to device ...
+2020-07-04 01:44:08,750 - redirect_Bt2Serial[line:112] - INFO: Start to redirect device data to host ...
+2020-07-04 01:45:46,096 - connect_host[line:62] - INFO: Host connected.
+2020-07-04 01:45:46,097 - scanservices[line:70] - INFO: Searching for services...
+2020-07-04 01:45:47,680 - scanservices[line:80] - INFO: Found a valid service on target device.
+2020-07-04 01:45:47,682 - connect_device[line:89] - INFO: Service found. Connecting to "b'Port\x00'" on fc:58:fa:1e:26:63...
+2020-07-04 01:45:47,901 - connect_device[line:93] - INFO: Device connected.
+2020-07-04 01:45:47,907 - redirect_Serial2Bt_thread[line:110] - INFO: Start to redirect host data to device ...
+2020-07-04 01:45:47,930 - redirect_Bt2Serial[line:113] - INFO: Start to redirect device data to host ...
+2020-07-04 01:45:53,180 - data_received[line:33] - DEBUG: Host2Device: 02
+2020-07-04 01:45:53,181 - data_received[line:33] - DEBUG: Host2Device: 18
+2020-07-04 01:45:53,182 - data_received[line:33] - DEBUG: Host2Device: 00
+2020-07-04 01:45:53,189 - data_received[line:33] - DEBUG: Host2Device: 0400801b7af6
+2020-07-04 01:45:53,190 - data_received[line:33] - DEBUG: Host2Device: f04b
+2020-07-04 01:45:53,192 - data_received[line:33] - DEBUG: Host2Device: e0
+2020-07-04 01:45:53,193 - data_received[line:33] - DEBUG: Host2Device: 91
+2020-07-04 01:45:53,194 - data_received[line:33] - DEBUG: Host2Device: 03
+2020-07-04 01:45:53,386 - data_received[line:33] - DEBUG: Host2Device: 02
+2020-07-04 01:45:53,387 - data_received[line:33] - DEBUG: Host2Device: 0a
+2020-07-04 01:45:53,388 - data_received[line:33] - DEBUG: Host2Device: 00
+2020-07-04 01:45:53,389 - data_received[line:33] - DEBUG: Host2Device: 01
+2020-07-04 01:45:53,395 - data_received[line:33] - DEBUG: Host2Device: 0001eb4017
+2020-07-04 01:45:53,402 - data_received[line:33] - DEBUG: Host2Device: 04030230000100
+2020-07-04 01:45:53,403 - data_received[line:33] - DEBUG: Host2Device: 01
+2020-07-04 01:45:53,404 - data_received[line:33] - DEBUG: Host2Device: eb
+2020-07-04 01:45:53,405 - data_received[line:33] - DEBUG: Host2Device: 40
+2020-07-04 01:45:53,406 - data_received[line:33] - DEBUG: Host2Device: 17
+2020-07-04 01:45:53,407 - data_received[line:33] - DEBUG: Host2Device: 04
+2020-07-04 01:45:53,408 - data_received[line:33] - DEBUG: Host2Device: 03
+2020-07-04 01:45:53,409 - data_received[line:33] - DEBUG: Host2Device: 02
+2020-07-04 01:45:53,410 - data_received[line:33] - DEBUG: Host2Device: 1f
+2020-07-04 01:45:53,411 - data_received[line:33] - DEBUG: Host2Device: 00
+2020-07-04 01:45:53,413 - data_received[line:33] - DEBUG: Host2Device: 01
+2020-07-04 01:45:53,421 - data_received[line:33] - DEBUG: Host2Device: 0001eb40170403
+2020-07-04 01:45:53,422 - data_received[line:33] - DEBUG: Host2Device: 0210
+2020-07-04 01:45:53,423 - data_received[line:33] - DEBUG: Host2Device: 00
+2020-07-04 01:45:53,424 - data_received[line:33] - DEBUG: Host2Device: 01
+2020-07-04 01:45:53,425 - data_received[line:33] - DEBUG: Host2Device: 00
+2020-07-04 01:45:53,426 - data_received[line:33] - DEBUG: Host2Device: 01
+2020-07-04 01:45:53,427 - data_received[line:33] - DEBUG: Host2Device: eb
+2020-07-04 01:45:53,428 - data_received[line:33] - DEBUG: Host2Device: 40
+2020-07-04 01:45:53,429 - data_received[line:33] - DEBUG: Host2Device: 17
+2020-07-04 01:45:53,436 - data_received[line:33] - DEBUG: Host2Device: 0403022d0001
+2020-07-04 01:45:53,437 - data_received[line:33] - DEBUG: Host2Device: 00
+2020-07-04 01:45:53,438 - data_received[line:33] - DEBUG: Host2Device: 01
+2020-07-04 01:45:53,439 - data_received[line:33] - DEBUG: Host2Device: eb
+2020-07-04 01:45:53,439 - data_received[line:33] - DEBUG: Host2Device: 40
+2020-07-04 01:45:53,441 - data_received[line:33] - DEBUG: Host2Device: 17
+2020-07-04 01:45:53,441 - data_received[line:33] - DEBUG: Host2Device: 04
+2020-07-04 01:45:53,442 - data_received[line:33] - DEBUG: Host2Device: 03
+2020-07-04 01:45:53,443 - data_received[line:33] - DEBUG: Host2Device: 02
+2020-07-04 01:45:53,445 - data_received[line:33] - DEBUG: Host2Device: 42
+2020-07-04 01:45:53,446 - data_received[line:33] - DEBUG: Host2Device: 00
+2020-07-04 01:45:53,452 - data_received[line:33] - DEBUG: Host2Device: 010001eb4017
+2020-07-04 01:45:53,453 - data_received[line:33] - DEBUG: Host2Device: 04
+2020-07-04 01:45:53,454 - data_received[line:33] - DEBUG: Host2Device: 03
+2020-07-04 01:45:53,455 - data_received[line:33] - DEBUG: Host2Device: 02
+2020-07-04 01:45:53,456 - data_received[line:33] - DEBUG: Host2Device: 7f
+2020-07-04 01:45:53,457 - data_received[line:33] - DEBUG: Host2Device: 00
+2020-07-04 01:45:53,458 - data_received[line:33] - DEBUG: Host2Device: 01
+2020-07-04 01:45:53,459 - data_received[line:33] - DEBUG: Host2Device: 00
+2020-07-04 01:45:53,460 - data_received[line:33] - DEBUG: Host2Device: 01
+2020-07-04 01:45:53,461 - data_received[line:33] - DEBUG: Host2Device: eb
+2020-07-04 01:45:53,463 - data_received[line:33] - DEBUG: Host2Device: 40
+2020-07-04 01:45:53,469 - data_received[line:33] - DEBUG: Host2Device: 1704030281
+2020-07-04 01:45:53,470 - data_received[line:33] - DEBUG: Host2Device: 0001
+2020-07-04 01:45:53,471 - data_received[line:33] - DEBUG: Host2Device: 00
+2020-07-04 01:45:53,472 - data_received[line:33] - DEBUG: Host2Device: 01
+2020-07-04 01:45:53,473 - data_received[line:33] - DEBUG: Host2Device: eb
+2020-07-04 01:45:53,474 - data_received[line:33] - DEBUG: Host2Device: 40
+2020-07-04 01:45:53,475 - data_received[line:33] - DEBUG: Host2Device: 17
+2020-07-04 01:45:53,476 - data_received[line:33] - DEBUG: Host2Device: 04
+2020-07-04 01:45:53,477 - data_received[line:33] - DEBUG: Host2Device: 03
+2020-07-04 01:45:53,478 - data_received[line:33] - DEBUG: Host2Device: 02
+2020-07-04 01:45:53,481 - data_received[line:33] - DEBUG: Host2Device: 0400
+2020-07-04 01:45:53,486 - data_received[line:33] - DEBUG: Host2Device: 010001eb40
+2020-07-04 01:45:53,488 - data_received[line:33] - DEBUG: Host2Device: 1704
+2020-07-04 01:45:53,489 - data_received[line:33] - DEBUG: Host2Device: 03
+2020-07-04 01:45:53,561 - data_received[line:33] - DEBUG: Host2Device: 02
+2020-07-04 01:45:53,562 - data_received[line:33] - DEBUG: Host2Device: 39
+2020-07-04 01:45:53,563 - data_received[line:33] - DEBUG: Host2Device: 00
+2020-07-04 01:45:53,569 - data_received[line:33] - DEBUG: Host2Device: 01000a6399
+2020-07-04 01:45:53,570 - data_received[line:33] - DEBUG: Host2Device: c5
+2020-07-04 01:45:53,571 - data_received[line:33] - DEBUG: Host2Device: 93
+2020-07-04 01:45:53,572 - data_received[line:33] - DEBUG: Host2Device: 03
+2020-07-04 01:45:53,805 - data_received[line:33] - DEBUG: Host2Device: 02
+2020-07-04 01:45:53,806 - data_received[line:33] - DEBUG: Host2Device: 19
+2020-07-04 01:45:53,808 - data_received[line:33] - DEBUG: Host2Device: 0001
+2020-07-04 01:45:53,809 - data_received[line:33] - DEBUG: Host2Device: 00
+2020-07-04 01:45:53,810 - data_received[line:33] - DEBUG: Host2Device: 4b
+2020-07-04 01:45:53,811 - data_received[line:33] - DEBUG: Host2Device: 65
+2020-07-04 01:45:53,812 - data_received[line:33] - DEBUG: Host2Device: e8
+2020-07-04 01:45:53,813 - data_received[line:33] - DEBUG: Host2Device: 1e
+2020-07-04 01:45:53,818 - data_received[line:33] - DEBUG: Host2Device: 9203

@@ -121,6 +121,7 @@ class Bridge:
                     if not data:
                         break
                     # get a bunch of bytes and send them
+                    self.logging.debug('Device2Host: {}'.format(data.hex()))
                     self.host.write(data)
                 except BluetoothError as msg:
                     self.logging.error('ERROR: {}\n'.format(msg))

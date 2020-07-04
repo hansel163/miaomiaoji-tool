@@ -1,110 +1,71 @@
-2020-07-04 01:49:54,480 - connect_host[line:62] - INFO: Host connected.
-2020-07-04 01:49:54,482 - scanservices[line:70] - INFO: Searching for services...
-2020-07-04 01:49:56,019 - scanservices[line:80] - INFO: Found a valid service on target device.
-2020-07-04 01:49:56,020 - connect_device[line:89] - INFO: Service found. Connecting to "b'Port\x00'" on fc:58:fa:1e:26:63...
-2020-07-04 01:49:56,269 - connect_device[line:93] - INFO: Device connected.
-2020-07-04 01:49:56,273 - redirect_Serial2Bt_thread[line:110] - INFO: Start to redirect host data to device ...
-2020-07-04 01:49:56,280 - redirect_Bt2Serial[line:113] - INFO: Start to redirect device data to host ...
-2020-07-04 01:49:59,643 - data_received[line:33] - DEBUG: Host2Device: 02
-2020-07-04 01:49:59,653 - data_received[line:33] - DEBUG: Host2Device: 1000010001eb401704
-2020-07-04 01:49:59,654 - data_received[line:33] - DEBUG: Host2Device: 03
-2020-07-04 01:49:59,745 - redirect_Bt2Serial[line:124] - DEBUG: Device2Host: 02110001003772d5adcb030210000100007d70107303
-2020-07-04 01:50:26,554 - connect_host[line:62] - INFO: Host connected.
-2020-07-04 01:50:26,556 - scanservices[line:70] - INFO: Searching for services...
-2020-07-04 01:50:28,141 - scanservices[line:80] - INFO: Found a valid service on target device.
-2020-07-04 01:50:28,142 - connect_device[line:89] - INFO: Service found. Connecting to "b'Port\x00'" on fc:58:fa:1e:26:63...
-2020-07-04 01:50:33,167 - connect_host[line:62] - INFO: Host connected.
-2020-07-04 01:50:33,168 - scanservices[line:70] - INFO: Searching for services...
-2020-07-04 01:50:33,317 - scanservices[line:80] - INFO: Found a valid service on target device.
-2020-07-04 01:50:33,319 - connect_device[line:89] - INFO: Service found. Connecting to "b'Port\x00'" on fc:58:fa:1e:26:63...
-2020-07-04 01:50:33,332 - connect_device[line:93] - INFO: Device connected.
-2020-07-04 01:50:33,346 - redirect_Serial2Bt_thread[line:110] - INFO: Start to redirect host data to device ...
-2020-07-04 01:50:33,354 - redirect_Bt2Serial[line:113] - INFO: Start to redirect device data to host ...
-2020-07-04 01:50:42,151 - data_received[line:33] - DEBUG: Host2Device: 02
-2020-07-04 01:50:42,152 - data_received[line:33] - DEBUG: Host2Device: 18
-2020-07-04 01:50:42,153 - data_received[line:33] - DEBUG: Host2Device: 00
-2020-07-04 01:50:42,160 - data_received[line:33] - DEBUG: Host2Device: 040024a3a68f
-2020-07-04 01:50:42,162 - data_received[line:33] - DEBUG: Host2Device: 8129
-2020-07-04 01:50:42,163 - data_received[line:33] - DEBUG: Host2Device: f0
-2020-07-04 01:50:42,164 - data_received[line:33] - DEBUG: Host2Device: 9c
-2020-07-04 01:50:42,165 - data_received[line:33] - DEBUG: Host2Device: 03
-2020-07-04 01:50:42,251 - redirect_Bt2Serial[line:124] - DEBUG: Device2Host: 02180001000034cbd2a203
-2020-07-04 01:50:42,340 - data_received[line:33] - DEBUG: Host2Device: 02
-2020-07-04 01:50:42,341 - data_received[line:33] - DEBUG: Host2Device: 0a
-2020-07-04 01:50:42,342 - data_received[line:33] - DEBUG: Host2Device: 00
-2020-07-04 01:50:42,348 - data_received[line:33] - DEBUG: Host2Device: 010001a2fb
-2020-07-04 01:50:42,350 - data_received[line:33] - DEBUG: Host2Device: d5d5
-2020-07-04 01:50:42,351 - data_received[line:33] - DEBUG: Host2Device: 03
-2020-07-04 01:50:42,352 - data_received[line:33] - DEBUG: Host2Device: 02
-2020-07-04 01:50:42,359 - data_received[line:33] - DEBUG: Host2Device: 3000010001a2
-2020-07-04 01:50:42,360 - data_received[line:33] - DEBUG: Host2Device: fbd5
-2020-07-04 01:50:42,361 - data_received[line:33] - DEBUG: Host2Device: d5
-2020-07-04 01:50:42,362 - data_received[line:33] - DEBUG: Host2Device: 03
-2020-07-04 01:50:42,363 - data_received[line:33] - DEBUG: Host2Device: 02
-2020-07-04 01:50:42,364 - data_received[line:33] - DEBUG: Host2Device: 1f
-2020-07-04 01:50:42,365 - data_received[line:33] - DEBUG: Host2Device: 00
-2020-07-04 01:50:42,366 - data_received[line:33] - DEBUG: Host2Device: 01
-2020-07-04 01:50:42,367 - data_received[line:33] - DEBUG: Host2Device: 00
-2020-07-04 01:50:42,368 - data_received[line:33] - DEBUG: Host2Device: 01
-2020-07-04 01:50:42,375 - data_received[line:33] - DEBUG: Host2Device: a2fbd5d503
-2020-07-04 01:50:42,376 - data_received[line:33] - DEBUG: Host2Device: 0210
-2020-07-04 01:50:42,377 - data_received[line:33] - DEBUG: Host2Device: 00
-2020-07-04 01:50:42,378 - data_received[line:33] - DEBUG: Host2Device: 01
-2020-07-04 01:50:42,379 - data_received[line:33] - DEBUG: Host2Device: 00
-2020-07-04 01:50:42,380 - data_received[line:33] - DEBUG: Host2Device: 01
-2020-07-04 01:50:42,381 - data_received[line:33] - DEBUG: Host2Device: a2
-2020-07-04 01:50:42,382 - data_received[line:33] - DEBUG: Host2Device: fb
-2020-07-04 01:50:42,383 - data_received[line:33] - DEBUG: Host2Device: d5
-2020-07-04 01:50:42,384 - data_received[line:33] - DEBUG: Host2Device: d5
-2020-07-04 01:50:42,385 - data_received[line:33] - DEBUG: Host2Device: 03
-2020-07-04 01:50:42,391 - data_received[line:33] - DEBUG: Host2Device: 022d000100
-2020-07-04 01:50:42,393 - data_received[line:33] - DEBUG: Host2Device: 01a2
-2020-07-04 01:50:42,394 - data_received[line:33] - DEBUG: Host2Device: fb
-2020-07-04 01:50:42,395 - data_received[line:33] - DEBUG: Host2Device: d5
-2020-07-04 01:50:42,396 - data_received[line:33] - DEBUG: Host2Device: d5
-2020-07-04 01:50:42,397 - redirect_Bt2Serial[line:124] - DEBUG: Device2Host: 020b000e005032423032303034303837323930c83fb3cb03020a0001000034cbd2a203
-2020-07-04 01:50:42,397 - data_received[line:33] - DEBUG: Host2Device: 03
-2020-07-04 01:50:42,399 - data_received[line:33] - DEBUG: Host2Device: 0242
-2020-07-04 01:50:42,400 - data_received[line:33] - DEBUG: Host2Device: 00
-2020-07-04 01:50:42,401 - data_received[line:33] - DEBUG: Host2Device: 01
-2020-07-04 01:50:42,403 - data_received[line:33] - DEBUG: Host2Device: 0001
-2020-07-04 01:50:42,409 - data_received[line:33] - DEBUG: Host2Device: a2fbd5d503
-2020-07-04 01:50:42,411 - data_received[line:33] - DEBUG: Host2Device: 027f
-2020-07-04 01:50:42,412 - data_received[line:33] - DEBUG: Host2Device: 00
-2020-07-04 01:50:42,413 - data_received[line:33] - DEBUG: Host2Device: 01
-2020-07-04 01:50:42,414 - data_received[line:33] - DEBUG: Host2Device: 00
-2020-07-04 01:50:42,415 - data_received[line:33] - DEBUG: Host2Device: 01
-2020-07-04 01:50:42,416 - data_received[line:33] - DEBUG: Host2Device: a2
-2020-07-04 01:50:42,417 - data_received[line:33] - DEBUG: Host2Device: fb
-2020-07-04 01:50:42,418 - data_received[line:33] - DEBUG: Host2Device: d5
-2020-07-04 01:50:42,424 - data_received[line:33] - DEBUG: Host2Device: d50302810001
-2020-07-04 01:50:42,426 - data_received[line:33] - DEBUG: Host2Device: 0001
-2020-07-04 01:50:42,427 - data_received[line:33] - DEBUG: Host2Device: a2
-2020-07-04 01:50:42,428 - data_received[line:33] - DEBUG: Host2Device: fb
-2020-07-04 01:50:42,429 - data_received[line:33] - DEBUG: Host2Device: d5
-2020-07-04 01:50:42,430 - data_received[line:33] - DEBUG: Host2Device: d5
-2020-07-04 01:50:42,431 - data_received[line:33] - DEBUG: Host2Device: 03
-2020-07-04 01:50:42,432 - data_received[line:33] - DEBUG: Host2Device: 02
-2020-07-04 01:50:42,433 - redirect_Bt2Serial[line:124] - DEBUG: Device2Host: 0231000200503227c578810302300001000034cbd2a203
-2020-07-04 01:50:42,434 - data_received[line:33] - DEBUG: Host2Device: 04
-2020-07-04 01:50:42,436 - data_received[line:33] - DEBUG: Host2Device: 0001
-2020-07-04 01:50:42,442 - data_received[line:33] - DEBUG: Host2Device: 0001a2fbd5d5
-2020-07-04 01:50:42,444 - data_received[line:33] - DEBUG: Host2Device: 03
-2020-07-04 01:50:42,464 - redirect_Bt2Serial[line:124] - DEBUG: Device2Host: 0220000200100ea5f66e5e03021f0001000034cbd2a203
-2020-07-04 01:50:42,491 - redirect_Bt2Serial[line:124] - DEBUG: Device2Host: 0211000100373b6e6f1a0302100001000034cbd2a203022e000200434ea2b924b903
-2020-07-04 01:50:42,523 - data_received[line:33] - DEBUG: Host2Device: 02
-2020-07-04 01:50:42,524 - data_received[line:33] - DEBUG: Host2Device: 39
-2020-07-04 01:50:42,525 - data_received[line:33] - DEBUG: Host2Device: 00
-2020-07-04 01:50:42,527 - data_received[line:33] - DEBUG: Host2Device: 01
-2020-07-04 01:50:42,528 - redirect_Bt2Serial[line:124] - DEBUG: Device2Host: 022d0001000034cbd2a2030243000600424b33343332e55300b10302420001000034cbd2a203
-2020-07-04 01:50:42,534 - data_received[line:33] - DEBUG: Host2Device: 000a2a220742
-2020-07-04 01:50:42,536 - data_received[line:33] - DEBUG: Host2Device: 03
-2020-07-04 01:50:42,578 - redirect_Bt2Serial[line:124] - DEBUG: Device2Host: 0280000c0076332e33382e313900000000e137983703027f0001000034cbd2a203
-2020-07-04 01:50:42,603 - redirect_Bt2Serial[line:124] - DEBUG: Device2Host: 0282001000484d453233305f50320000000000000066af543e0302810001000034cbd2a203
-2020-07-04 01:50:42,628 - redirect_Bt2Serial[line:124] - DEBUG: Device2Host: 0205000300070101b04f169d0302040001000034cbd2a20302390001000034cbd2a203
-2020-07-04 01:50:42,761 - data_received[line:33] - DEBUG: Host2Device: 02
-2020-07-04 01:50:42,762 - data_received[line:33] - DEBUG: Host2Device: 19
-2020-07-04 01:50:42,763 - data_received[line:33] - DEBUG: Host2Device: 00
-2020-07-04 01:50:42,770 - data_received[line:33] - DEBUG: Host2Device: 01004b2c53dc
-2020-07-04 01:50:42,772 - data_received[line:33] - DEBUG: Host2Device: 4303
-2020-07-04 01:50:42,801 - redirect_Bt2Serial[line:124] - DEBUG: Device2Host: 02190001000034cbd2a203
+2020-07-04 11:32:36,400 - connect_host[line:73] - INFO: Host connected.
+2020-07-04 11:32:36,402 - scanservices[line:81] - INFO: Searching for services...
+2020-07-04 11:32:38,068 - scanservices[line:91] - INFO: Found a valid service on target device.
+2020-07-04 11:32:38,072 - connect_device[line:100] - INFO: Service found. Connecting to "b'Port\x00'" on fc:58:fa:1e:26:63...
+2020-07-04 11:32:38,324 - connect_device[line:104] - INFO: Device connected.
+2020-07-04 11:32:38,332 - redirect_Serial2Bt_thread[line:121] - INFO: Start to redirect host data to device ...
+2020-07-04 11:32:38,335 - redirect_Bt2Serial[line:140] - INFO: Start to redirect device data to host ...
+2020-07-04 11:32:41,608 - data_received[line:36] - DEBUG: Host2Device Data: 02
+2020-07-04 11:32:41,615 - data_received[line:36] - DEBUG: Host2Device Data: 18000400f8
+2020-07-04 11:32:41,656 - data_received[line:36] - DEBUG: Host2Device Data: f970562f8c34b903
+2020-07-04 11:32:41,666 - handle_packet[line:47] - DEBUG: Host2Device Packet: 0218000400f8f970562f8c34b903
+2020-07-04 11:32:41,708 - redirect_Bt2Serial[line:151] - DEBUG: Device2Host Data: 02180001000091836e2d03
+2020-07-04 11:32:41,709 - get_packet[line:132] - DEBUG: Device2Host Packet: 02180001000091836e2d03
+2020-07-04 11:32:41,803 - data_received[line:36] - DEBUG: Host2Device Data: 02
+2020-07-04 11:32:41,808 - data_received[line:36] - DEBUG: Host2Device Data: 0a0001
+2020-07-04 11:32:41,844 - data_received[line:36] - DEBUG: Host2Device Data: 000107b3695a0302300001000107b3695a03021f0001000107b3695a0302100001
+2020-07-04 11:32:41,847 - handle_packet[line:47] - DEBUG: Host2Device Packet: 020a0001000107b3695a03
+2020-07-04 11:32:41,849 - handle_packet[line:47] - DEBUG: Host2Device Packet: 02300001000107b3695a03
+2020-07-04 11:32:41,850 - handle_packet[line:47] - DEBUG: Host2Device Packet: 021f0001000107b3695a03
+2020-07-04 11:32:41,852 - data_received[line:36] - DEBUG: Host2Device Data: 000107b3695a0302
+2020-07-04 11:32:41,853 - handle_packet[line:47] - DEBUG: Host2Device Packet: 02100001000107b3695a03
+2020-07-04 11:32:41,855 - data_received[line:36] - DEBUG: Host2Device Data: 2d0001
+2020-07-04 11:32:41,856 - data_received[line:36] - DEBUG: Host2Device Data: 00
+2020-07-04 11:32:41,872 - data_received[line:36] - DEBUG: Host2Device Data: 0107b3695a0302420001000107b3
+2020-07-04 11:32:41,873 - handle_packet[line:47] - DEBUG: Host2Device Packet: 022d0001000107b3695a03
+2020-07-04 11:32:41,875 - redirect_Bt2Serial[line:151] - DEBUG: Device2Host Data: 020b000e005032423032303034303837323930ff9d78b103020a0001000091836e2d0302
+2020-07-04 11:32:41,875 - data_received[line:36] - DEBUG: Host2Device Data: 695a0302
+2020-07-04 11:32:41,886 - get_packet[line:132] - DEBUG: Device2Host Packet: 020b000e005032423032303034303837323930ff9d78b103
+2020-07-04 11:32:41,887 - handle_packet[line:47] - DEBUG: Host2Device Packet: 02420001000107b3695a03
+2020-07-04 11:32:41,888 - get_packet[line:132] - DEBUG: Device2Host Packet: 020a0001000091836e2d03
+2020-07-04 11:32:41,890 - data_received[line:36] - DEBUG: Host2Device Data: 7f0001000107b3695a0302810001
+2020-07-04 11:32:41,891 - redirect_Bt2Serial[line:151] - DEBUG: Device2Host Data: 310002005032082e4b270302300001000091836e2d030220000200100e8a1d5df803021f0001000091836e2d0302110001003387e2be920302100001000091836e2d03
+2020-07-04 11:32:41,902 - handle_packet[line:47] - DEBUG: Host2Device Packet: 027f0001000107b3695a03
+2020-07-04 11:32:41,903 - get_packet[line:132] - DEBUG: Device2Host Packet: 023100005032082e4b2703
+2020-07-04 11:32:41,905 - data_received[line:36] - DEBUG: Host2Device Data: 000107b3695a0302040001000107
+2020-07-04 11:32:41,905 - get_packet[line:132] - DEBUG: Device2Host Packet: 02300001000091836e2d03
+2020-07-04 11:32:41,906 - handle_packet[line:47] - DEBUG: Host2Device Packet: 02810001000107b3695a03
+2020-07-04 11:32:41,917 - get_packet[line:132] - DEBUG: Device2Host Packet: 02200000100e8a1d5df803
+2020-07-04 11:32:41,918 - data_received[line:36] - DEBUG: Host2Device Data: b3695a03
+2020-07-04 11:32:41,919 - get_packet[line:132] - DEBUG: Device2Host Packet: 021f0001000091836e2d03
+2020-07-04 11:32:41,920 - handle_packet[line:47] - DEBUG: Host2Device Packet: 02040001000107b3695a03
+2020-07-04 11:32:41,921 - get_packet[line:132] - DEBUG: Device2Host Packet: 02110001003387e2be9203
+2020-07-04 11:32:41,922 - get_packet[line:132] - DEBUG: Device2Host Packet: 02100001000091836e2d03
+2020-07-04 11:32:41,934 - redirect_Bt2Serial[line:151] - DEBUG: Device2Host Data: 022e000200434e8d52171f03022d0001000091836e2d030243000600424b3334333221b038270302420001000091836e2d030280000c0076332e33382e31390000000040c2941e03027f0001000091836e2d03
+2020-07-04 11:32:41,935 - get_packet[line:132] - DEBUG: Device2Host Packet: 022e0000434e8d52171f03
+2020-07-04 11:32:41,936 - get_packet[line:132] - DEBUG: Device2Host Packet: 022d0001000091836e2d03
+2020-07-04 11:32:41,937 - get_packet[line:132] - DEBUG: Device2Host Packet: 0243000600424b3334333221b0382703
+2020-07-04 11:32:41,937 - get_packet[line:132] - DEBUG: Device2Host Packet: 02420001000091836e2d03
+2020-07-04 11:32:41,938 - get_packet[line:132] - DEBUG: Device2Host Packet: 0280000c0076332e33382e31390000000040c2941e03
+2020-07-04 11:32:41,939 - get_packet[line:132] - DEBUG: Device2Host Packet: 027f0001000091836e2d03
+2020-07-04 11:32:41,960 - redirect_Bt2Serial[line:151] - DEBUG: Device2Host Data: 0282001000484d453233305f5032000000000000005db78b960302810001000091836e2d03
+2020-07-04 11:32:41,971 - get_packet[line:132] - DEBUG: Device2Host Packet: 0282001000484d453233305f5032000000000000005db78b9603
+2020-07-04 11:32:41,972 - get_packet[line:132] - DEBUG: Device2Host Packet: 02810001000091836e2d03
+2020-07-04 11:32:41,973 - redirect_Bt2Serial[line:151] - DEBUG: Device2Host Data: 0205000300070101024161360302040001000091836e2d03
+2020-07-04 11:32:41,984 - get_packet[line:132] - DEBUG: Device2Host Packet: 02050003
+2020-07-04 11:32:41,986 - get_packet[line:132] - DEBUG: Device2Host Packet: 0241613603
+2020-07-04 11:32:41,987 - get_packet[line:132] - DEBUG: Device2Host Packet: 02040001000091836e2d03
+2020-07-04 11:32:42,019 - data_received[line:36] - DEBUG: Host2Device Data: 02
+2020-07-04 11:32:42,020 - data_received[line:36] - DEBUG: Host2Device Data: 39
+2020-07-04 11:32:42,021 - data_received[line:36] - DEBUG: Host2Device Data: 00
+2020-07-04 11:32:42,023 - data_received[line:36] - DEBUG: Host2Device Data: 01
+2020-07-04 11:32:42,035 - data_received[line:36] - DEBUG: Host2Device Data: 000a8f6abbcd03
+2020-07-04 11:32:42,036 - handle_packet[line:47] - DEBUG: Host2Device Packet: 02390001000a8f6abbcd03
+2020-07-04 11:32:42,092 - redirect_Bt2Serial[line:151] - DEBUG: Device2Host Data: 02390001000091836e2d03
+2020-07-04 11:32:42,093 - get_packet[line:132] - DEBUG: Device2Host Packet: 02390001000091836e2d03
+2020-07-04 11:32:42,238 - data_received[line:36] - DEBUG: Host2Device Data: 02
+2020-07-04 11:32:42,254 - data_received[line:36] - DEBUG: Host2Device Data: 19000100
+2020-07-04 11:32:42,305 - data_received[line:36] - DEBUG: Host2Device Data: 4b891b60cc03
+2020-07-04 11:32:42,306 - handle_packet[line:47] - DEBUG: Host2Device Packet: 02190001004b891b60cc03
+2020-07-04 11:32:42,334 - redirect_Bt2Serial[line:151] - DEBUG: Device2Host Data: 02190001000091836e2d03
+2020-07-04 11:32:42,335 - get_packet[line:132] - DEBUG: Device2Host Packet: 02190001000091836e2d03
